@@ -1,6 +1,6 @@
 # IPL Data Engineering Pipeline  
 
-## 📌 Project Overview  
+## Project Overview  
 This project focuses on building a **Data Engineering Pipeline** to process and analyze **IPL (Indian Premier League) match data** using **PySpark on Databricks**. The primary objective is to gain hands-on experience in the **end-to-end data lifecycle**—from **data extraction, preprocessing, transformation,** to **query-based analysis**.
 
 The project begins by **loading the raw IPL dataset** into an **AWS S3 bucket**, making it a publicly accessible object to allow **Databricks** to read the data directly from S3. The dataset is then **ingested into Databricks**, where **PySpark** is used to perform **data cleansing** and **data quality checks** to identify inconsistencies or missing records.  
