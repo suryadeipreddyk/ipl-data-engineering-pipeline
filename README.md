@@ -8,6 +8,11 @@ The project begins by **loading the raw IPL dataset** into an **AWS S3 bucket**,
 Once the raw data is **preprocessed**, various **business transformation logics** are applied to generate meaningful insights. The transformed data is **stored in temporary views**, and **SQL queries** are executed to generate **aggregated tables** for analysis.  
 
 ---
+## **Architecture Diagram**  
+
+![IPL Data Engineering Architecture](https://github.com/suryadeipreddyk/ipl-data-engineering-pipeline/blob/cf3987640a41b47aff45ec590df22b73930d38ee/IPL%20Data%20Engineering%20Architecture.png)  
+
+---
 
 
 For a detailed breakdown of the project, visit the [**Indian Premier League ETL Pipeline**](https://devengine.notion.site/Indian-Premier-League-ETL-Pipeline-1af32fa5808880108fe8c1562c7806f1?pvs=4).
